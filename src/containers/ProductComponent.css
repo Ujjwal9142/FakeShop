@@ -1,0 +1,40 @@
+.main_productComponent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mainItem_image {
+  height: 225px;
+  width: 150px;
+  padding: 0.8rem 0.5rem;
+}
+.image {
+  border-bottom: 1px solid gray;
+}
+.productCard {
+  width: 20%;
+  height: 400px;
+  border: 2px solid gray;
+  border-radius: 9px;
+  margin: 2rem 0.2rem;
+}
+.content_header,
+.content_metaPrice {
+  text-transform: capitalize;
+  color: #121212;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.content_metaCategory {
+  text-transform: capitalize;
+  color: gray;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.card_content {
+  padding: 0.8rem 0.7rem;
+}
